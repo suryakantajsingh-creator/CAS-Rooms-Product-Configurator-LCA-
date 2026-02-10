@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CAS Configurator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>CAS Configurator</h2>
+
+  <div class="controls">
+    <select id="runningMeter">
+      <option value="">Select Running Meter</option>
+    </select>
+
+    <select id="element">
+      <option value="">Select Element</option>
+    </select>
+
+    <select id="height">
+      <option value="">Select Height</option>
+      <option value="2270">2270</option>
+      <option value="2470">2470</option>
+    </select>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Inventory (Material)</th>
+        <th>Weight (kg)</th>
+      </tr>
+    </thead>
+    <tbody id="resultTable">
+      <tr>
+        <td colspan="2">Select all options to see results</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>

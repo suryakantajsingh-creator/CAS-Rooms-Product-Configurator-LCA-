@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  background: #f5f5f5;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+select {
+  padding: 8px 10px;
+  font-size: 14px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background: #eee;
+}
